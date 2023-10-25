@@ -17,7 +17,7 @@ const updateOptions = {
     gitUsername: "schnoo77",  // [Required] Your GitHub Username.
 
     appName: "Mod", //[Required] The Name of the app archive and the app folder.
-    appExecutableName: "Run.exe", //[Required] The Executable of the Application to be Run after updating.
+    appExecutableName: "run.bat", //[Required] The Executable of the Application to be Run after updating.
 
     appDirectory: "./FruitCash - Mod", //{Default is "Application Data/AppName"} [Optional]  Where the app will receide, make sure your app has permissions to be there.
     versionFile: "./settings/version.json", // {Default is "./settings/version.json"} [Optional] The Path to the Local Version File.
